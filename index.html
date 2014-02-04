@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+
+		<meta charset="utf-8">
+		<title>LLB Bower Tutorial</title>
+		
+	</head>
+
+	<body>
+	
+		<p id="myText">Hello world! This is the LLB Bower tutorial.</p>
+		<button type="button" id="buttonTest" onclick="hideStuff('myText')">Hide Text</button>
+
+	</body>
+	
+	<script type="text/javascript">
+		function hideStuff(id) {
+			// hide the <p> text
+			document.getElementById(id).style.display = 'none';
+		}
+	</script>
+	
+	<script src="bower_components/jquery/jquery.js"></script>
+
+</html>
